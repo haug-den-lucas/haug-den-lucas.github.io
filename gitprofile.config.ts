@@ -87,13 +87,13 @@ const CONFIG = {
     },
     {
       company: 'AUSY Technologies Germany AG',
-      position: 'Teaching Assistant',
+      position: 'Working Student',
       from: 'Juli 2022',
       to: 'Mai 2023',
     },
     {
       company: 'AUSY Technologies Germany AG',
-      position: 'Teaching Assistant',
+      position: 'Working Student',
       from: 'October 2018',
       to: 'December 2021',
     },
