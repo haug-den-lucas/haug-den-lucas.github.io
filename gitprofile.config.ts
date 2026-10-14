@@ -138,7 +138,7 @@ const CONFIG = {
       conferenceName: '20th International Symposium on Wireless Communication Systems (ISWCS)',
       journalName: '',
       authors: 'Lucas Haug; Frank Dürr; Christian Becker',
-      link: 'https://doi.org/10.1109/DSN69566.2026.00060',
+      link: 'https://doi.org/10.1109/ISWCS69382.2026.11714117',
       description:
         'Real-time communication with guaranteed endto-end latencies is crucial for many emerging cyber-physical systems that integrate mobile devices, such as remote-controlled automated guided vehicles (AGVs) on an industrial shop floor. While IEEE Time-Sensitive Networking (TSN) and 3GPP 5G standards provide the foundation for converged wireline and wireless TSN networks, the probabilistic nature of wireless transmission introduces significant challenges for deterministic communication, such as clock-driven packet scheduling (IEEE 802.1Qbv standard) subject to probabilistic packet delays. We present an Integer Linear Programming (ILP) formulation that maximizes schedule robustness by maximizing temporal gaps between streams, isolating deterministic wireline traffic from the stochastic link effects propagated by wireless streams. Compared to other scheduling approaches, our approach requires significantly less information about the delay characteristics of the wireless system. Our evaluation shows that the gap-maximization approach reduces the number of late packets by up to 95.5% compared to traditional wireline scheduling techniques under medium network load, which corresponds to a reliability of 99.8%. Furthermore, the generated schedules maintain a high reliability even in scenarios with dynamic, unpredicted changes of the wireless delay distribution.'
     },
