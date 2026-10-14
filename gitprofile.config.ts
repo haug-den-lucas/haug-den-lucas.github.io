@@ -134,6 +134,24 @@ const CONFIG = {
   ],
   publications: [
     {
+      title: 'Maximizing the Robustness of Wireless TSN Schedules',
+      conferenceName: '20th International Symposium on Wireless Communication Systems (ISWCS)',
+      journalName: '',
+      authors: 'Lucas Haug; Frank Dürr; Christian Becker',
+      link: 'https://doi.org/10.1109/DSN69566.2026.00060',
+      description:
+        'Real-time communication with guaranteed endto-end latencies is crucial for many emerging cyber-physical systems that integrate mobile devices, such as remote-controlled automated guided vehicles (AGVs) on an industrial shop floor. While IEEE Time-Sensitive Networking (TSN) and 3GPP 5G standards provide the foundation for converged wireline and wireless TSN networks, the probabilistic nature of wireless transmission introduces significant challenges for deterministic communication, such as clock-driven packet scheduling (IEEE 802.1Qbv standard) subject to probabilistic packet delays. We present an Integer Linear Programming (ILP) formulation that maximizes schedule robustness by maximizing temporal gaps between streams, isolating deterministic wireline traffic from the stochastic link effects propagated by wireless streams. Compared to other scheduling approaches, our approach requires significantly less information about the delay characteristics of the wireless system. Our evaluation shows that the gap-maximization approach reduces the number of late packets by up to 95.5% compared to traditional wireline scheduling techniques under medium network load, which corresponds to a reliability of 99.8%. Furthermore, the generated schedules maintain a high reliability even in scenarios with dynamic, unpredicted changes of the wireless delay distribution.'
+    },
+    {
+      title: 'An (m, k)-firm Elevation Policy for Weakly Hard Real-Time in Converged 5G-TSN Networks',
+      conferenceName: '56th Annual IEEE International Conference on Dependable Systems and Networks (DSN)',
+      journalName: '',
+      authors: 'Simon Egger; Robin Laidig; Heiko Geppert; Lucas Haug; Jona Herrmann; Frank Dürr',
+      link: 'https://doi.org/10.1109/DSN69566.2026.00060',
+      description:
+        'Ongoing standardization efforts in 5G and Time-Sensitive Networking (TSN) aim to provide safety-critical applications with real-time communication. However, 5G-TSN network schedules often rely on idealistic delay models that can jeopardize the validity of their guarantees. This paper presents an (m, k)-firm Elevation Policy to uphold a base level of weakly hard real-time guarantees (WHRT). It augments the primary schedule with a dynamic priority-driven scheme to elevate the priority of m out of k consecutive frames if they experience unexpected delays. Our evaluations demonstrate the necessity of WHRT to increase fault-tolerance against 5G delay outliers and to uphold the quality of control within a 5G-TSN networked control system. Still, only a small resource overhead is imposed during epochs where the primary schedule is valid and can serve stronger QoS guarantees. The (m, k)-firm Elevation Policy thereby yields a robust but lightweight fallback mechanism to serve applications with dependable guarantees during unstable network conditions.'
+    },
+    {
       title: 'Compensating the Packet Delay Variation for 6G Integrated with IEEE Time-Sensitive Networking',
       conferenceName: '33rd International Conference on Real-Time Networks and Systems',
       journalName: '',
